@@ -1,53 +1,62 @@
-# Web Programming - Assignment 1
+# Web Programming Coursework
 
-* **Name:** Omar Ahmed Gouda
-* **ID:** 250104265
-* **Academic Year:** 2026/2027
-* **GitHub Pages Live URL:** https://omarahmedgooda-arch.github.io/web-programming/
-
----
-
-## 1. Research: Difference Between the Internet and the World Wide Web
-
-Although often used interchangeably, the Internet and the World Wide Web (WWW) represent two fundamentally distinct concepts.
-
-The **Internet** is a massive, global physical network of interconnected computers, cables, routers, satellites, and servers. Originating from ARPANET in the late 1960s, it functions as the underlying infrastructure enabling devices worldwide to communicate and exchange data. It supports numerous communication protocols and services, such as email (SMTP/IMAP), file transfer (FTP), remote access (SSH), and online gaming.
-
-In contrast, the **World Wide Web (Web)** is an information-sharing model and application layer built on top of the Internet. Invented by Sir Tim Berners-Lee in 1989, the Web consists of interlinked hypertext documents, multimedia resources, and applications accessed via the Hypertext Transfer Protocol (HTTP/HTTPS) using web browsers.
-
-An effective analogy is transportation: the Internet is the network of physical roads and bridges, while the Web represents the cars and cargo traveling across those roads. In short, the Internet is the hardware-driven infrastructure, whereas the Web is a software service running over that infrastructure.
+### Student Info
+- **Name:** Omar Ahmed Gooda Abdelsadek
+- **ID:** 250104265
+- **Academic Year:** Second Year (Level 2)
+- **Major:** Network & Cyber Security Technology
+- **University:** Elsewedy University of Technology (SUT)
 
 ---
 
-## 2. Web 3.0: Definition, Technologies, and Future Outlook
+## Assignment 1: Web Fundamentals & Setup
 
-### What is Web 3.0?
-Web 3.0 represents the next evolutionary phase of the internet, shifting the digital paradigm toward decentralization, user sovereignty, and trustless interactions. While **Web 2.0** democratized content creation through centralized platforms that monetize user data, Web 3.0 allows users to retain ownership of their identities, digital assets, and personal information.
+- **GitHub Repository:** [omarahmedgooda-arch/web-programming](https://github.com/omarahmedgooda-arch/web-programming)
 
-### Core Technologies Powering Web 3.0:
-* **Blockchain:** A distributed, immutable ledger that eliminates single points of control and intermediaries.
-* **Smart Contracts:** Self-executing code stored on the blockchain that autonomously enforces agreements.
-* **dApps (Decentralized Applications):** Applications that run on peer-to-peer networks rather than centralized servers.
+### 1. Internet vs World Wide Web
+The Internet is the global network of connected devices, routers, and infrastructure that talk to each other using different protocols. The World Wide Web (WWW) is an information service that runs on top of the Internet, allowing users to access web pages and documents using HTTP/HTTPS via web browsers.
 
-### Opinion on its Future:
-In my view, Web 3.0 has significant potential to reshape digital ownership and data privacy. However, its immediate mass adoption faces hurdles, including scalability bottlenecks, high transaction costs, complex user experiences, and regulatory scrutiny. Rather than completely replacing centralized platforms, the future will likely see a hybrid model where decentralized protocols integrate into mainstream systems, providing users with greater autonomy where it matters most.
+### 2. Web 3.0 Summary
+Web 3.0 is a more decentralized version of the web that focuses on user ownership and open networks. It relies on technologies like blockchain, smart contracts, and decentralized applications (dApps) to reduce reliance on centralized servers and tech giants.
 
----
+### 3. DevTools Network Tab
+Captured 3 network requests using DevTools:
 
-## 3. Explore: DevTools Network Tab
-
-Recording 3 network requests using DevTools (F12) Network tab:
-
-| # | Request (Resource) | Method | Status Code | Content-Type |
-|---|---------------------|--------|-------------|--------------|
-| 1 | `web-programming/` | `GET` | `304 Not Modified` | `text/html; charset=utf-8` |
-| 2 | `frameworks.css` | `GET` | `200 OK` | `text/css; charset=utf-8` |
-| 3 | `octocat.png` | `GET` | `200 OK` | `image/png` |
+| Resource | Method | Status | Content-Type |
+| --- | --- | --- | --- |
+| `web-programming/` | GET | 304 | text/html |
+| `frameworks.css` | GET | 200 | text/css |
+| `octocat.png` | GET | 200 | image/png |
 
 ---
 
-## 4. Setup: GitHub Pages Setup
+## Assignment 2: Personal HTML Webpage
 
-* **Repository:** Forked from `dr-ahmed-said/web-programming`
-* **Single-line File:** `index.html` created in the root directory.
-* **Deployment:** Hosted live via GitHub Pages at: [https://omarahmedgooda-arch.github.io/web-programming/](https://omarahmedgooda-arch.github.io/web-programming/)
+- **Live Page:** [View Live Site](https://omarahmedgooda-arch.github.io/web-programming/)
+- **Source Code:** [index.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/index.html)
+
+### Details & Features
+- Built using semantic HTML5 only (no CSS used).
+- Contains head tags (`meta charset`, `viewport`, `title`, and `favicon`).
+- Navigation links pointing to different sections on the page.
+- My picture and a scenic view using the responsive `<picture>` tag.
+- Academic lecture timetable using `table`, `thead`, `tbody`, `caption`, and `rowspan`.
+- Contact information section.
+- Validated with W3C Validator (0 errors, 0 warnings).
+
+---
+
+## Assignment 3: Semantic Blog & External CSS
+
+- **Live Blog:** [View Live Blog](https://omarahmedgooda-arch.github.io/web-programming/blog.html)
+- **Source Code (HTML):** [blog.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/blog.html)
+- **Stylesheet (CSS):** [style.css](https://github.com/omarahmedgooda-arch/web-programming/blob/main/style.css)
+
+### Details & Features
+- Built according to the lecture layout diagram using `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, and `<footer>`.
+- Navigation bar with 4 direct links.
+- Sidebar with a labelled search input (`type="search"`) and links.
+- Accessible contact form inside the footer with `<fieldset>`, `<legend>`, `<label>`, and validation attributes.
+- Styled using a single external stylesheet `style.css` (no inline styles).
+- Applied universal reset `*`, default fonts on `body`, grouping selectors, descendant selectors, and combined class selectors (`.post.featured`).
+- Checked and passed both W3C HTML and CSS validators without errors.
