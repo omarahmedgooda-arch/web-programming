@@ -32,9 +32,9 @@ Captured 3 network requests using DevTools:
 
 ## Assignment 2: Personal HTML Webpage
 
-- **Live Page:** [View Live Site](https://omarahmedgooda-arch.github.io/web-programming/assignment-2/)
-- **Source Code Folder:** [assignment-2](https://github.com/omarahmedgooda-arch/web-programming/tree/main/assignment-2)
-- **Main File:** [index.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/assignment-2/index.html)
+- **Live Page:** [View Live Site](https://omarahmedgooda-arch.github.io/web-programming/Assignment-2/)
+- **Source Code Folder:** [Assignment-2](https://github.com/omarahmedgooda-arch/web-programming/tree/main/Assignment-2)
+- **Main File:** [index.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/Assignment-2/index.html)
 
 ### Details & Features
 - Built using semantic HTML5 only (no CSS used).
@@ -49,10 +49,10 @@ Captured 3 network requests using DevTools:
 
 ## Assignment 3: Semantic Blog & External CSS
 
-- **Live Blog:** [View Live Blog](https://omarahmedgooda-arch.github.io/web-programming/assignment-3/blog.html)
-- **Source Code Folder:** [assignment-3](https://github.com/omarahmedgooda-arch/web-programming/tree/main/assignment-3)
-- **HTML File:** [blog.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/assignment-3/blog.html)
-- **Stylesheet (CSS):** [style.css](https://github.com/omarahmedgooda-arch/web-programming/blob/main/assignment-3/style.css)
+- **Live Blog:** [View Live Blog](https://omarahmedgooda-arch.github.io/web-programming/Assignment-3/blog.html)
+- **Source Code Folder:** [Assignment-3](https://github.com/omarahmedgooda-arch/web-programming/tree/main/Assignment-3)
+- **HTML File:** [blog.html](https://github.com/omarahmedgooda-arch/web-programming/blob/main/Assignment-3/blog.html)
+- **Stylesheet (CSS):** [style.css](https://github.com/omarahmedgooda-arch/web-programming/blob/main/Assignment-3/style.css)
 
 ### Details & Features
 - Built according to the lecture layout diagram using `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, and `<footer>`.
